@@ -121,6 +121,13 @@ dist
 
 # Stores VSCode versions used for testing VSCode extensions
 .vscode-test
+.vscode/*
+!.vscode/extensions.json
+
+# Editor directories and files
+.idea
+.DS_Store
+
 
 # yarn v2
 .yarn/cache
@@ -128,3 +135,8 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Vite
+dist
+dist-ssr
+*.local
